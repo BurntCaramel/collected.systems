@@ -15,7 +15,7 @@ const users = [
 
 const siteConfig = {
   title: 'Collected', // Title for your website.
-  tagline: 'Query and process content',
+  tagline: 'Query and process content intuitively with GraphQL',
   url: 'https://collected.systems', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
