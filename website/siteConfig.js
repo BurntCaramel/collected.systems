@@ -15,7 +15,7 @@ const users = [
 
 const siteConfig = {
   title: 'Collected', // Title for your website.
-  tagline: 'Query, process, and manage content',
+  tagline: 'Query and process content',
   url: 'https://collected.systems', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'use-cases-intro', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},

@@ -141,7 +141,7 @@ query {
 }
 `.trim() + "\n```"
             ].join("\n\n"),
-            image: `${baseUrl}img/collected-logo.svg`,
+            //image: `${baseUrl}img/collected-logo.svg`,
             imageAlign: "right",
           }
         ]}
@@ -229,15 +229,15 @@ function Home() {
       <Block layout="fourColumn" align="center">
         {[
           {
-            title: "Query with GraphQL",
+            title: "Query content with GraphQL",
             content: "Source content from GitHub, Figma, or Trello.",
-            image: `${baseUrl}img/collected-logo.svg`,
+            //image: `${baseUrl}img/collected-logo.svg`,
             imageAlign: "top"
           },
           {
             title: "Process on the fly",
             content: "Process Markdown, images, and records.",
-            image: `${baseUrl}img/collected-logo.svg`,
+            //image: `${baseUrl}img/collected-logo.svg`,
             imageAlign: "top"
           }
         ]}
